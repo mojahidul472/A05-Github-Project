@@ -135,7 +135,7 @@ async function openDetails(id) {
     }
 }
 
-// ৪. সার্চ ও ফিল্টার লজিক
+// Search function 
 async function handleSearch() {
     const q = document.getElementById('searchInput').value;
     if(!q) return render(issuesData);
